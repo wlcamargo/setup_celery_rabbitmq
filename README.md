@@ -11,17 +11,17 @@ Celery é uma lib para execução de tarefas assíncronas e agendadas em Python,
 Além disso, Celery é compatível com vários brokers de mensagens, não só RabbitMQ, mas também Redis, Amazon SQS, Apache Kafka, entre outros. Isso oferece flexibilidade para escolher o broker que melhor se adapta às necessidades do seu projeto.
 
 ## Por que delegar tarefas é importante? 
-Em projetos modernos e sistemas complexos, tentar fazer tudo em uma única máquina pode ser ineficiente e limitar o crescimento do seu sistema. Delegar tarefas — ou seja, distribuir partes do trabalho para vários computadores — é essencial para conseguir escalar, acelerar processos e garantir maior disponibilidade.
+Em projetos modernos e sistemas complexos, tentar fazer tudo em uma única máquina pode ser ineficiente e limitar o crescimento do seu sistema. É importante distribuir partes do trabalho para vários computadores e assim conseguir escalar, acelerar processos e garantir maior disponibilidade.
 
-Quando você delegar tarefas para outros nós na rede, você:
+## Quando você delegar tarefas para outros nós na rede, você:
 
-Libera recursos locais: A máquina principal não fica sobrecarregada executando tudo sozinha.
+* Libera recursos locais: A máquina principal não fica sobrecarregada executando tudo sozinha.
 
-Aproveita o poder da colaboração: Máquinas diferentes podem trabalhar em paralelo, reduzindo o tempo total de execução.
+* Aproveita o poder da colaboração: Máquinas diferentes podem trabalhar em paralelo, reduzindo o tempo total de execução.
 
-Aumenta a escalabilidade: É possível expandir seu sistema adicionando novos nós facilmente.
+* Aumenta a escalabilidade: É possível expandir seu sistema adicionando novos nós facilmente.
 
-Melhora a resiliência: Se um nó falhar, os outros continuam trabalhando, evitando paradas totais.
+* Melhora a resiliência: Se um nó falhar, os outros continuam trabalhando, evitando paradas totais.
 
 ## Arquitetura
 ![image](assets/architecture_rabbitmq.png)
