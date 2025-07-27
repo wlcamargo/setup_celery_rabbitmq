@@ -1,0 +1,23 @@
+[project]
+name = "setup-celery-rabbitmq"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "Wallace Camargo", email = "wallacecpdg@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "celery (>=5.5.3,<6.0.0)",
+    "flower (>=2.0.1,<3.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+packages = [
+  { include = "*", from = "src" }
+]
+
