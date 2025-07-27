@@ -1,5 +1,5 @@
 
-# Setup Celery & RabbitMQ com Poetry
+# Setup Celery & RabbitMQ
 
 Este projeto é um exemplo simples de como configurar o **Celery** com o **RabbitMQ** como broker.
 
